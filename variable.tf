@@ -1,3 +1,12 @@
+variable "apic_user" {
+    type    = string
+}
+variable "apic_password" {
+    type    = string
+}
+variable "apic_url" {
+    type    = string
+}
 variable "tenant" {
     type    = string
     default = "terraform-tenant"
