@@ -1,4 +1,4 @@
-variable "apic_user" {
+variable "apic_username" {
     type    = string
 }
 variable "apic_password" {
