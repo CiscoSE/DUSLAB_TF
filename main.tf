@@ -9,11 +9,11 @@ terraform {
 # Configure the provider with your Cisco APIC credentials.
 provider "aci" {
   # APIC Username
-  username = var.user.username
+  username = var.apic_username
   # APIC Password
-  password = var.user.password
+  password = var.apic_password
   # APIC URL
-  url      = var.user.url
+  url      = var.apic_url
   insecure = true
 }
 
