@@ -28,11 +28,11 @@ variable "tenant" {
 }
 variable "vrf" {
     type    = string
-    default = "prod_vrf"
+    default = "prod_VRF"
 }
 variable "bd" {
     type    = string
-    default = "prod_bd"
+    default = "prod_BD"
 }
 variable "subnet" {
     type    = string
