@@ -36,5 +36,5 @@ variable "bd" {
 }
 variable "subnet" {
     type    = string
-    default = "1.1.1.1/24"
+    default = "1.1.1.2/24"
 }
